@@ -1,0 +1,14 @@
+package com.hillel;
+
+public class Task{
+	public static void main(String...args){
+		if (args.length < 2){
+			System.out.println("Incorect input, low data or wrong type ???");
+			return;
+		}
+		
+		int first = Integer.parseInt(args[0]), second = Integer.parseInt(args[1]);
+		divWhole = (first % second == 0) ? true : false;
+		if (divWhole) System.out.println("Yes first div to second without some bit");
+	}
+}
